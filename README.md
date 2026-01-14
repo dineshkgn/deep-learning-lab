@@ -1,7 +1,18 @@
-# Lead Data Engineer building production-grade ML + data platforms
+# Deep Learning Lab (PyTorch)
 
-Linkedin:https://www.linkedin.com/in/dineshkgn/
+Reproducible experiments focused on advanced deep learning with practical evaluation:
+- Tabular deep learning (embeddings + attention)
+- Optimization + regularization studies
+- Ablations and benchmark harness
+- Clean experiment tracking and repeatable runs
 
-Tech Stack: Python, Spark, Databricks, Airflow, Kafka, AWS, Terraform, MLflow, PyTorch, Feature Store, Lakehouse, SQL
+## Structure
+- `experiments/` – runnable experiments
+- `src/` – reusable training/eval code
+- `configs/` – experiment configs
+- `results/` – metrics + plots
 
-What I’m working on this month: 
+## Run
+```bash
+pip install -r requirements.txt
+python -m experiments.train_baseline
