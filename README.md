@@ -1,18 +1,19 @@
 # Deep Learning Lab (PyTorch)
 
-Reproducible experiments focused on advanced deep learning with practical evaluation:
-- Tabular deep learning (embeddings + attention)
-- Optimization + regularization studies
-- Ablations and benchmark harness
-- Clean experiment tracking and repeatable runs
+Focused experiments exploring advanced deep learning concepts with practical evaluation.
 
-## Structure
-- `experiments/` – runnable experiments
-- `src/` – reusable training/eval code
-- `configs/` – experiment configs
-- `results/` – metrics + plots
+## Areas
+- Tabular deep learning (embeddings, attention)
+- Optimization & regularization
+- Ablation studies
+- Model calibration
 
-## Run
-```bash
-pip install -r requirements.txt
-python -m experiments.train_baseline
+## Experiments
+- Baseline MLP vs Tabular Transformer
+- Effect of embedding dimension
+- Regularization impact on overfitting
+
+## Roadmap
+- [ ] Tabular Transformer benchmark
+- [ ] Calibration analysis
+- [ ] Mixed precision training
